@@ -9,119 +9,13 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.chango.intent2.MainActivity">
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Botón 1"
-        android:id="@+id/button"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:nestedScrollingEnabled="true"
-        android:onClick="boton1Accion" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Botón 2"
-        android:id="@+id/button2"
-        android:layout_below="@+id/button"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="29dp"
-        android:onClick="boton2Accion" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Botón 3"
-        android:id="@+id/button3"
-        android:layout_below="@+id/button2"
-        android:layout_alignParentStart="true"
-        android:layout_marginTop="34dp"
-        android:onClick="boton3Accion" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Botón 4"
-        android:id="@+id/button4"
-        android:layout_above="@+id/button2"
-        android:layout_alignParentEnd="true"
-        android:onClick="boton4Accion" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Botón 5"
-        android:id="@+id/button5"
-        android:layout_alignTop="@+id/button2"
-        android:layout_alignStart="@+id/button4"
-        android:nestedScrollingEnabled="true"
-        android:onClick="boton5Accion" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Boton 6"
-        android:id="@+id/button6"
-        android:layout_alignBottom="@+id/button3"
-        android:layout_alignEnd="@+id/button5"
-        android:onClick="boton6Accion" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button7"
-        android:layout_above="@+id/button8"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="47dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button8"
-        android:layout_above="@+id/button9"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="44dp" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button9"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button10"
-        android:layout_alignBottom="@+id/button7"
-        android:layout_alignParentEnd="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button11"
-        android:layout_alignBottom="@+id/button8"
-        android:layout_alignEnd="@+id/button10" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button12"
-        android:layout_alignParentBottom="true"
-        android:layout_alignEnd="@+id/button11" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="New Button"
-        android:id="@+id/button13"
+        android:text="Vamos a Activity 2"
+        android:id="@+id/button14"
         android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="botonAActivity2" />
 </RelativeLayout>

@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Intent2</string>
+    <string name="tfno">999999999</string>
+    <string name="mail">chango@uni.pe</string>
+    <string name="subject">SALUDOS</string>
+    <string name="envio">HOLA MA2GUIÑA</string>
+    <string name="coord">http://maps.google.com/maps?q=loc:-12.0477635,-77.1268424</string>
+    <string name="text">MA2GUIÑA Y FAPLIPE</string>
+
 </resources>
